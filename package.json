@@ -1,0 +1,31 @@
+{
+  "name": "eodtreeviz",
+  "version": "1.0.0",
+  "description": "Tree visualization for EoD!",
+  "private": "true",
+  "scripts": {
+    "build": "webpack --mode production",
+    "serve": "webpack serve --mode development"
+  },
+  "keywords": [
+    "gdo"
+  ],
+  "author": "Nv7",
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "^5.2.6",
+    "style-loader": "^2.0.0",
+    "ts-loader": "^9.2.2",
+    "typescript": "^4.3.2",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2",
+    "@types/d3": "^7.4.0"
+  },
+  "dependencies": {
+    "d3": "^7.4.4",
+    "file-loader": "^6.2.0",
+    "sunburst-chart": "^1.15.3"
+  }
+}
